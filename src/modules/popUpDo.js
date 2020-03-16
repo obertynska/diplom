@@ -11,14 +11,13 @@ const popUpDo = () => {
         let count = 1;
         const appear = () => {
             count++;
-            console.log(count);
             popUp.style.backgroundColor = `rgb(0,0,0,.${count})`;
             if (count > 7) {
                 popUp.style.backgroundColor = `rgb(0,0,0,.8)`;
                 clearInterval(stop);
             }
         };
-        let stop = setInterval(appear, 40);
+        let stop = setInterval(appear, 42);
 
     };
 

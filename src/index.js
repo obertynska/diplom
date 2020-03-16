@@ -10,14 +10,15 @@ import elementClosest from 'element-closest';
 elementClosest(window);
 
 /*импорт*/
-//pop up
-
 import popUpDo from './modules/popUpDo';
+import calc from "./modules/calculator";
+import accordeon from "./modules/accordeon";
+
 
 
 
 /*вызов*/
-//pop up
-
 popUpDo();
+calc();
+accordeon();
 
