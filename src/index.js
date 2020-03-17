@@ -13,6 +13,7 @@ elementClosest(window);
 import popUpDo from './modules/popUpDo';
 import calc from "./modules/calculator";
 import accordeon from "./modules/accordeon";
+import sendForm from "./modules/sendForm";
 
 
 
@@ -21,4 +22,5 @@ import accordeon from "./modules/accordeon";
 popUpDo();
 calc();
 accordeon();
+sendForm();
 
